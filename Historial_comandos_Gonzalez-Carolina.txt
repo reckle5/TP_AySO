@@ -1,0 +1,176 @@
+cd
+pwd
+ll
+ls -l
+ls -l /home/vagrant/repogit
+ls -l ../
+pwd
+cd repogit/
+pwd
+cd
+pwd
+echo $HOME 
+CAT / PROC/CPUINFO
+cat /proc/cpuinfo
+whoami
+id
+man man
+man -k net
+vagrant@VMPruebas:~$ man -k net
+net: nothing appropriate.
+man man
+man -k local
+apropos "local
+
+f
+f
+
+
+
+history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+clear
+man man
+man -k
+apropos local
+apropos "local"
+grep apropos
+echo hola > unarchivo
+cat unarchivo
+ls -l
+ls -l > unarchivo
+cat unarchivo
+man bc
+wc -l << EOF
+l1
+l2
+EOF
+
+cat << FIN > Otro_archivo
+l2
+l3
+l4
+l5
+FIN
+
+cat Otro_archivo
+ls -la
+wc -l .bash_history
+ls -l
+cd repogit/
+ls -l
+cd TP_AySO/
+ls -l
+git status
+git commit -m "remove: se elimina datos_usuario.txt para empezar de 0"
+git push
+gity status
+git status
+rm -rf TP_AySO
+cd ..
+ls -l
+rm -rf TP_AySO
+ls -l
+cd repogit/
+ls -l
+ls -la /home/vagrant/.ssh/
+cat /home/vagrant/.ssh/id_ed25519.pub
+git clone git@github.com:reckle5/TP_AySO.git
+cd TP_AySO/
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+id -un
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+cat  datos_usuario.txt
+git add .
+git commit -m "add: agregado 1er ejercicio sobre datos_usuario.txt"
+git push
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | tail -n1
+grep "model name" /proc/cpuinfo | tail -n1 >>  datos_usuario.txt
+cat  datos_usuario.txt
+git add .
+git commit -m "feat: añadiendo información de CPU"
+git push
+man grep
+cat /etc/passwd
+grep -v "nologin" /etc/passwd
+man sort
+man sort -k
+grep -v "nologin" /etc/passwd | head -n10
+grep -v "nologin" /etc/passwd | head -n10 | sort -k7
+cd
+ls -la
+cat .bash_history 
+history -a
+cat .bash_history 
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+ls -l
+mv lista_ordenada /home/vagrant/repogit/TP_AySO
+cd repogit/
+cd TP_AySO/
+ls -l
+cat lista_ordenada 
+git add .
+git commit -m "add: listado de usuarios ordenados"
+man -k dum traffic
+man -k "dump traffic"
+echo "tcpdump" > comando_dump_net
+echo "man -k 'dump traffic'" >>  comando_dump_net
+cat  comando_dump_net
+git add .
+git commit -m "add: comando para capturar y analizar el trafico de red"
+cd ..
+ls -l
+cd ..
+ls -l
+cat << EOF >> README.md
+Alumno : Gonzalez Parra Carolina
+División: 313 
+Turno: Noche 
+EOF
+
+cat README.md
+git add .
+cd repogit/
+git add .
+cd TP_AySO/
+git add .
+git commit -m "add: datos de alumno"
+history -a
