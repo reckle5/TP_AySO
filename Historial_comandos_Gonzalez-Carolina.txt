@@ -174,3 +174,32 @@ cd TP_AySO/
 git add .
 git commit -m "add: datos de alumno"
 history -a
+man -k "copy file"
+man cp
+cp $HOME/.bash_history ./Historial_comandos_Gonzalez-Carolina.txt
+ls -l
+cat Historial_comandos_Gonzalez-Carolina.txt 
+git add .
+git commit -m "add: creación archivo con historial de comandos"
+git push
+cat << EOF >> README.md
+Alumno: Gonzalez Parra Carolina
+Turno: Noche
+División: 313
+
+EOF
+
+cat README.md
+git add .
+git push
+sed -i "s/TP_AySOAlumno:/TP_AySO\nAlumno:/" Historial_comandos_Gonzalez-Carolina.txt
+cat Historial_comandos_Gonzalez-Carolina.txt
+sed -i "s/TP_AySOAlumno:/TP_AySO\nAlumno:/" README.md
+car README.md
+cat README.md
+git add .
+git commit -m "Fix: arreglando readme"
+ls -l
+rm string
+ls -l
+history -a
